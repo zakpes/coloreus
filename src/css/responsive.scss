@@ -1,0 +1,93 @@
+/* MEDIA QUERIES DESKTOP-FIRST
+ * ==================================== */
+
+/* Large devices (desktops, less than 1200px) .col-lg- */
+@media ( max-width : 1199px ) {
+
+    .color {
+        height: 30px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) .col-md- */
+@media ( max-width : 991px ) {
+
+    .color {
+        height: 25px;
+    }
+
+    .col-md-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .color-container h3 {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) .col-sm- */
+@media ( max-width : 767px ) {
+
+    .color {
+        height: 30px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) .col- */
+@media ( max-width : 575px ) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media ( max-width : 480px ) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media (max-width : 320px) {
+
+
+}
+
+
+/* Media Queries Mobile-First
+ * ==================================== */
+
+/* Custom, iPhone Retina .col- */
+@media ( min-width : 360px ) {
+
+
+}
+
+/* Extra Small Devices, Phones .col- */
+@media ( min-width : 480px ) {
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) .col-sm- */
+@media ( min-width : 576px ) {
+
+
+}
+
+/* Medium devices (tablets, 768px and up) .col-md- */
+@media ( min-width : 768px ) {
+
+
+}
+
+/* Large devices (desktops, 992px and up) .col-lg- */
+@media ( min-width : 992px ) {
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) .col-xl- */
+@media ( min-width : 1200px ) {
+
+
+}
